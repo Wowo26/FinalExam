@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LocalCrafts Online Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="#home" class="nav-logo">
+    <img src="images/logo.png" alt="LocalCrafts Logo" />
+    LocalCrafts
+  </a>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#order">Order</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home">
+  <div class="hero-logo-wrap">
+    <img src="images/logo.png" alt="LocalCrafts Logo" />
+  </div>
+  <h1>Local<span>Crafts</span><br>Online Store</h1>
+  <p class="tagline">
+    Handmade with love by Maria Santos. Discover unique woven bags, home décor, and accessories crafted from Filipino tradition — delivered right to your door.
+  </p>
+  <div class="hero-btns">
+    <a href="#products" class="btn btn-primary">Shop Now</a>
+    <a href="#order" class="btn btn-outline">Place an Order</a>
+  </div>
+
+</section>
+
+<section id="products">
+  <h2 class="section-title">Our Products</h2>
+  <div class="divider"></div>
+  <p class="section-sub">Each piece is handcrafted with care — no two are exactly alike.</p>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="images/Handwoven_Tote_Bag.jpeg" alt="Handwoven Tote Bag" />
+      <div class="product-body">
+        <span class="product-badge">Bestseller</span>
+        <h3>Handwoven Tote Bag</h3>
+        <p>Durable, stylish tote bag hand-woven from natural fibers with bamboo handles. Perfect for everyday use.</p>
+        <div class="product-price">₱650.00</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/Boho_Wall_Hanging.jpeg" alt="Boho Wall Hanging" />
+      <div class="product-body">
+        <span class="product-badge">Home Décor</span>
+        <h3>Boho Wall Hanging</h3>
+        <p>A handcrafted macramé wall hanging with natural feathers and intricate mandala design. Boho-chic style.</p>
+        <div class="product-price">₱480.00</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/Beaded_Wristlet.jpeg" alt="Beaded Wristlet" />
+      <div class="product-body">
+        <span class="product-badge">Accessory</span>
+        <h3>Beaded Wristlet</h3>
+        <p>Colorful handmade beaded wristlet with tassel accents. Available in multiple colors to match any outfit.</p>
+        <div class="product-price">₱220.00</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/Native_Sling_Bag.jpeg" alt="Native Sling Bag" />
+      <div class="product-body">
+        <span class="product-badge">New Arrival</span>
+        <h3>Native Sling Bag</h3>
+        <p>Traditional Filipino-style sling bag woven with striped native fabric. Compact, functional, and stylish.</p>
+        <div class="product-price">₱550.00</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/Bamboo_Table_Organizer.jpeg" alt="Bamboo Table Organizer" />
+      <div class="product-body">
+        <span class="product-badge">Organizer</span>
+        <h3>Bamboo Table Organizer</h3>
+        <p>Eco-friendly bamboo desk organizer with two pull-out drawers. Keep your workspace neat and natural.</p>
+        <div class="product-price">₱390.00</div>
+      </div>
+    </div>
+
+ <div class="product-card">
+      <img src="images/wooded_spoon_fork_.jpeg" alt="Wooden Spoon and Fork" />
+      <div class="product-body">
+        <span class="product-badge">Utensils</span>
+        <h3>Wooden Spoon and Fork</h3>
+        <p>Wooden Spoon and Fork for Eating Utensil Set Lunch Wood Cutlery Japanese Silverware Sets Wooden Flatware Reusable Bamboo Eat Utensils Korean Small Wood Forks Spoon</p>
+        <div class="product-price">₱587.00</div>
+      </div>
+
+  </div>
+</section>
+
+<section id="order">
+  <h2 class="section-title">Place an Order</h2>
+  <div class="divider"></div>
+  <p class="section-sub">Fill in the form below and we'll get back to you within 24 hours.</p>
+  <div class="form-wrap">
+    <div class="form-group">
+      <label for="cname">Customer Name</label>
+      <input type="text" id="cname" placeholder="e.g. Juan dela Cruz" required />
+    </div>
+    <div class="form-group">
+      <label for="address">Delivery Address</label>
+      <input type="text" id="address" placeholder="Street, Barangay, City, Province" required />
+    </div>
+    <div class="form-group">
+      <label for="contact">Contact Number</label>
+      <input type="tel" id="contact" placeholder="e.g. 09XX-XXX-XXXX" required />
+    </div>
+    <div class="form-group">
+      <label for="contact">Email Address</label>
+      <input type="email" id="contact" placeholder=Optional/>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="product">Product Selection</label>
+        <select id="product" required>
+          <option value="" disabled selected>-- Choose a product --</option>
+          <option value="Handwoven Tote Bag">Handwoven Tote Bag — ₱650</option>
+          <option value="Boho Wall Hanging">Boho Wall Hanging — ₱480</option>
+          <option value="Beaded Wristlet">Beaded Wristlet — ₱220</option>
+          <option value="Native Sling Bag">Native Sling Bag — ₱550</option>
+          <option value="Bamboo Table Organizer">Bamboo Table Organizer — ₱390</option>
+          <option value="Wooden Spoon and Fork">Wooden Spoon and Fork — ₱587</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="qty">Quantity</label>
+        <input type="number" id="qty" min="1" max="20" value="1" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="notes">Special Instructions (optional)</label>
+      <textarea id="notes" rows="3" placeholder="e.g. preferred color, gift wrapping, etc."></textarea>
+    </div>
+    <button class="submit-btn" onclick="submitOrder()">✔ Submit Order</button>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Get in Touch</h2>
+  <div class="divider"></div>
+  <p class="section-sub">We'd love to hear from you!</p>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h4>📍 Find Us</h4>
+      <p>Yumang Street, Barangay San Isidro, General Santos City, Philippines</p>
+      <p>Open Mon – Sat, 8 AM – 6 PM</p>
+    </div>
+    <div class="contact-card">
+      <h4>📞 Contact Us</h4>
+      <a href="tel:+639061668690">📱 +63 906-166-8690</a>
+      <p>✉️ localcrafts2026@gmail.com</p>
+    </div>
+    <div class="contact-card">
+      <h4>🌐 Follow Us</h4>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=61580682759872" target="_blank" class="social-btn">📘 Facebook</a>
+        <a href="https://www.instagram.com/local_crafts2026/" target="_blank" class="social-btn">📸 Instagram</a>
+        <a href="https://www.tiktok.com/@user477253422?lang=en" target="_blank" class="social-btn">🎵 TikTok</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <span>LocalCrafts Online Store</span> · Handmade & Unique · Est. 2026</p>
+  <p style="margin-top:.4rem;">Crafted with ❤️ by Maria Santos · General Santos City, Philippines</p>
+</footer>
+
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h3>🎉 Order Received!</h3>
+    <p id="modal-msg">Thank you! Your order has been submitted.</p>
+    <button onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  function submitOrder() {
+    const name    = document.getElementById('cname').value.trim();
+    const address = document.getElementById('address').value.trim();
+    const contact = document.getElementById('contact').value.trim();
+    const product = document.getElementById('product').value;
+    const qty     = document.getElementById('qty').value;
+    if (!name || !address || !contact || !product) {
+      alert('Please fill in all required fields before submitting.');
+      return;
+    }
+    document.getElementById('modal-msg').textContent =
+      `Thank you, ${name}! Your order of ${qty}x ${product} has been received. We'll contact you at ${contact} to con
